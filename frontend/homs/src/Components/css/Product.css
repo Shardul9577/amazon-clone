@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&display=swap');
+
+.product-card{
+    box-shadow: 9px 3px 18px rgb(99, 99, 99);
+    width: 18rem;
+    margin: 2%;
+    padding: 2%;
+    background-image: linear-gradient(to right, #ffd772 , #ffa238);
+}
+.product-card:hover{
+    scale: 1.1;
+    transition: ease-in-out;
+    transition-duration: 500ms;
+}
+
+.card-title{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: start;
+    font-size: 2rem;
+}
+
+.card-text{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    text-align: start;
+}
+
+.btn-card{
+    display: flex;
+    justify-content: start;
+    width: 8rem;
+    font-family: "Hind", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.card-images-general{
+    width:15rem;
+    height:12rem;
+}
+
+@media only screen and (max-width: 625px) {
+    .product-card{
+        width: 36rem;
+    }
+    .card-title{
+        text-align:center;
+    }
+    
+    .card-text{
+        text-align:center;
+    }
+
+    .card-images-general-div{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn-div{
+        display: flex;
+        justify-content: center; 
+    }
+}

@@ -1,0 +1,128 @@
+.dashboard-1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-color-1{
+    padding: 3%;
+    box-shadow:0px 1px 1px 0px rgba(0, 0, 0, 0.24), 0px 1px 3px 0px rgba(0, 0, 0, 0.22);
+    background-color: #a8dadc;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    width: 30vw;
+    justify-content: space-between;
+    border-radius: 5%;
+}
+
+.card-color-2{
+    padding: 3%;
+    box-shadow:0px 1px 1px 0px rgba(0, 0, 0, 0.24), 0px 1px 3px 0px rgba(0, 0, 0, 0.22);
+    background-color: #ffb703;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    width: 30vw;
+    justify-content: space-between;
+    border-radius: 5%;
+}
+
+.cards-logo-1{
+    font-size:5rem;
+    padding: 2%;
+}
+
+.cards-logo-2{
+    font-size:5rem;
+    padding: 2%;
+}
+
+.users-table{
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.user-delete-logo{
+    color: #ff0000;
+    padding: 3%;
+}
+
+.user-delete-logo:hover{
+    color: #ff6c6c;
+    background-color: rgba(159, 159, 159, 0.488);
+    border-radius: 40px
+}
+
+.user-delete-logo-2{
+    color: #848484;
+    padding: 3%; 
+}
+
+.orders-table{
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.order-delete-logo{
+    color: #ff0000;
+    padding: 3%;
+}
+
+.order-delete-logo:hover{
+    color: #ff6c6c;
+    background-color: rgba(159, 159, 159, 0.488);
+    border-radius: 40px
+}
+
+.product-form{
+    padding: 1%;
+    margin-bottom: 5%;
+}
+
+.product-form-head{
+    text-align: start;
+}
+
+.dashboard-section-order-img{
+    width: 8rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .cards-logo-1{
+        font-size:2.5rem;
+    }
+    
+    .cards-logo-2{
+        font-size:2.5rem;
+    }  
+}
+
+@media only screen and (max-width: 700px) {
+    .cards-logo-1{
+        font-size:2.5rem;
+    }
+    
+    .cards-logo-2{
+        font-size:2.5rem;
+    }  
+
+    .dashboard-1{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-color-1{
+        width: auto;
+        border-radius: 5%;
+        margin-top: 5%;
+    }
+    
+    .card-color-2{
+        width: auto;
+        border-radius: 5%;
+        margin-top: 5%;
+    }
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Bowlby+One+SC&family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+
+.footer-page{
+    /* background-color: #1d3557; */
+    background-image: url("https://t3.ftcdn.net/jpg/04/42/06/34/360_F_442063430_OjLo5sHK0twuUk2hCGWpjLphEHiLcamL.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between; 
+} 
+.footer-page-1{
+    padding: 1%;
+}
+.footer-page-2{
+    padding: 1%;
+}
+.footer-page-3{
+    padding: 1%;
+}
+.footerpage-heading{
+    color: white;
+    font-family: "Asul", serif;
+    text-align: center;
+}
+.footerpage-heading-1{
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 25%;
+    font-family: "Bowlby One SC", sans-serif;
+}
+.footer-followup-links{
+    color: white;
+    text-align: center;
+    margin-top: 25%;
+    font-family: "Noto Sans Mono", monospace;
+}
+.footer-followup-links:hover{
+    color: rgb(212, 212, 212);
+}
+.footerpage-heading-download{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+}
+.footerpage-image-download{
+    width: 15vw;
+    margin-top: 10%;
+    border-radius: 20px;
+    text-align: start;
+}
+.footerpage-para-1{
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+}
+.footer-page-end-2{
+    background-color: #03045e ;
+    color: white;
+    margin-bottom: -17px;
+}
+
+/* __________________________________________________responsiveness__________________________________ */
+
+@media only screen and (max-width: 799px) {
+    
+    .footerpage-heading{
+        font-size: 3vw;
+        text-align: start;
+    }
+    
+    .footerpage-heading-1{
+        font-size: 5vw;
+        text-align: center;
+    }
+    
+    .footer-followup-links{
+        text-align: start;
+        margin-top: 25%;
+        font-size: 2.5vw;
+    }
+
+    .footerpage-heading-download{
+        text-align:start;
+        font-size: 2.5vw;
+    }
+
+    .footerpage-image-download{
+        width: 20vw;
+        margin-top: 10%;
+        border-radius: 20px;
+        text-align: start;
+    }
+
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* .user-account{
+    height: 100vh;
+    width: 100vw;
+} */
+.user-account::after{
+    content: '';
+    position: absolute;
+    height: 50vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/020/933/072/small/abstract-blur-gradient-background-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #51c878; */
+    z-index: -1;
+}
+.user-account-box{
+    width: 100vw;
+    box-shadow: 9px 3px 18px rgb(62, 62, 62);
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+
+.user-account-avatar{
+   border-radius: 200px; 
+   width: 15vw;
+   box-shadow: 9px 3px 18px rgb(0, 0, 0);
+   margin-top: 5%;
+}
+
+.user-account-details{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8%;
+    align-items: center;
+}
+
+.user-account-details-img{
+    width: 30vw;
+}
+
+.user-account-details-text{
+    margin-top:10%;
+    text-align: start;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.user-account-details-head{
+    text-align: start;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+}
+
+.user-account-details-subhead{
+    text-align: start;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+.user-account-details-buttons{
+    display: flex;
+    margin-top:10%;
+    gap: 5%;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+}
+
+.user-account-more-details{
+    margin-top: 5%;
+}
+
+.user-account-more-details-head{
+    text-align: start;
+}
+
+.user-account-more-details-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .user-account-avatar{
+        margin-top: 15%;
+        width: 25vw;
+    }
+     
+     .user-account-details{
+         display: flex;
+         flex-direction: column;
+    }
+
+    .user-account-more-details-head{
+        text-align: center;
+    }
+
+    .user-account-details-img{
+        width: 50vw;
+    }
+    
+    .user-account-details-head{
+        text-align: start;
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .user-account-avatar{
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .user-account-avatar{
+        margin-top: 22%;
+        width: 35vw;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .user-account-avatar{
+        margin-top: 35%;
+        width: 45vw;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .user-account-avatar{
+        margin-top: 45%;
+    }
+}

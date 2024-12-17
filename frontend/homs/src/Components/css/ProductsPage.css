@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.all-products-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    justify-content:space-between;
+    margin-bottom: 5%;
+}
+
+.all-products-section-1{
+    width: 25vw;
+    box-shadow: 0px -1px 25px rgb(155 155 155 / 84%);
+    border-radius: 10px;
+}
+
+.all-products-section-2{
+    width: 75vw;
+    box-shadow: 0px -1px 25px rgb(155 155 155 / 84%);
+    border-radius: 10px;
+    margin-left: 1%;
+}
+
+.filters-section{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.main-all-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.productspage-pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.pagination{
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.pagination-items{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.pagination-items:hover{
+    color: rgb(91, 91, 91);
+}
+
+.pagination-items-links{
+    color: black;
+    text-decoration: none;
+}
+
+.pagination-items-links:hover{
+    color: rgb(91, 91, 91);
+}
+
+.pagination-active-item{
+    color: rgb(255, 110, 110) !important;
+}
+
+.category-selector {
+    text-decoration: none;
+    text-align: start;
+    cursor: pointer;
+    list-style: none;
+    margin-top: 5%;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem; /* Consider using rem for scalability */
+}
+
+.category-selector:hover, .category-selector:active {
+    color: rgb(255, 110, 110);
+}
+
+.error-detail{
+    color:red;
+    font-family:"Exo 2", sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+}
+
+.error-image{
+    width: 10vw;
+}
+
+.error-image-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 625px) {
+    .all-products-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all-products-section-1{
+        width: 90vw;
+    }
+
+    .all-products-section-2{
+        width: 90vw;
+        margin-left: 3% !important;
+        margin-top: 5%;
+    }
+
+    .pagination{
+        width: 60vw;
+    }
+}

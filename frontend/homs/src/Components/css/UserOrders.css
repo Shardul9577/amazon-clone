@@ -1,0 +1,15 @@
+.cart-section{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.cart-section-head{
+    margin-top: 5%;
+    text-align: start;
+}
+.cart-section-para{
+    text-align: start;
+}
+
+.cart-section-order-img{
+    width: 10rem;
+}

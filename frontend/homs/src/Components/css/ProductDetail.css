@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Russo+One&display=swap');
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.product-detail-box-1{
+    display: flex;
+    justify-content:space-between;
+    box-shadow: 6px 8px 8px rgb(147, 147, 147);
+    margin-top: 5%;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #ff8800 , #fff0cb);
+    padding: 2%;
+}
+
+.main-detail-img{
+    width: 50vw !important;
+    height: 50vh !important;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+.product-details{
+    text-align: left;
+    align-items: center;
+    width: 50vw;
+    padding: 2%;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.product-details-input{
+    width: 3rem;
+    margin: 2%;
+}
+
+.add-to-cart-btn{
+    margin-top: 3%;
+    width: 9rem;
+}
+
+.product-review-card{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: #ffffff;
+    box-shadow: 9px 3px 18px rgb(109, 109, 109 , 1);
+}
+
+.product-add-review-section{
+    background-color: #ffffff;
+    box-shadow: 9px 3px 18px rgb(109, 109, 109 , 1);
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+.product-add-review-head{
+    text-align: start;
+}
+
+.reviews-heading{
+    text-align: start;
+    margin-top: 5%;
+}
+
+.product-review-card-header{
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.product-review-card-header-rating{
+    align-items: center;
+}
+
+.product-review-card-body{
+    text-align: start;
+}
+
+@media only screen and (max-width: 799px) {
+    .product-detail-box-1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-detail-img{
+        width: 50vw !important;
+        height: 60vh !important;
+        align-items: center;
+        margin-top: 10%;
+    
+    }  
+    
+    .product-details{
+        width: 70vw;
+        padding: 2%;
+    }
+    
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Coda:wght@400;800&family=IM+Fell+DW+Pica+SC&family=PT+Mono&display=swap');
+
+.homepage{
+    /* background-color: #1f487e; */
+    background-image:url("https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -9%;
+}
+.homepage::after{
+    content: '';
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #ffffff; /* Color of the underline */
+    clip-path: polygon(100% 89%, 0 100%, 100% 100%);
+}
+
+.homepage-main-head{
+    display: flex;
+    padding-top: 20%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: "PT Mono", monospace;
+    text-shadow: 1px 2px 2px #000000;
+}
+.homepage-sub-head{
+    display: flex;
+    padding-top: 3%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: "Anek Latin", sans-serif;
+    text-shadow: 1px 2px 2px #000000;
+}
+.homepage-scroll-btn{
+    margin-top: 3%;
+    width: 9vw;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+/* _________________________________responsiveness________________________________________________ */
+
+
+@media only screen and (max-width: 899px) {
+    .homepage{
+        margin-top: -10%;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    .homepage{
+        margin-top: -12%;
+    }
+    .homepage-scroll-btn{
+        margin-top: 3%;
+        width: 15vw;
+    }
+}
+@media only screen and (max-width: 699px) {
+    .homepage{
+        margin-top: -13%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .homepage{
+        margin-top: -16%;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .homepage{
+        margin-top: -18%;
+    }
+    .homepage-scroll-btn{
+        margin-top: 3%;
+        width: 20vw;
+        color: white;
+        border: 2px solid white;
+    }
+    .homepage-main-head{
+        padding-top: 35%;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}
+@media only screen and (max-width: 399px) {
+    .homepage{
+        margin-top: -20%;
+    }
+}

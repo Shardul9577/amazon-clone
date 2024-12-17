@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.nav-Header{
+    margin-top: 2%;
+    box-shadow: 13px 11px 8px rgb(71, 71, 71);
+    border-radius: 20px;
+    background-color: #03045e !important;
+    color: white !important;
+    z-index: 1;
+}
+.logo-nav{
+    width: 6vw;
+}
+
+.nav-logo-button{
+    color: white !important;
+}
+
+.search-input-nav{
+    color: black;
+    border: 4px solid #ffc107;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: white !important; 
+    position: relative;
+    text-decoration: none; /* Removes the default underline */
+    padding-bottom: 5px; 
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+.nav-link::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    bottom: 0px; /* Distance of the underline from the text */
+    left: 50%;
+    background-color: #ffffff; /* Color of the underline */
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover:after{
+    visibility: visible;
+    width: 100%;
+    left: 0;
+}
+
+.nav-link:active{
+    color: rgb(255, 208, 208) !important;
+}
+.nav-link:hover{
+    color: rgb(99, 99, 99);
+}
+
+.head-user-avatar{
+    width: 3rem;
+    border-radius: 50px;
+}
+
+/* _________________________________Responsiveness____________________________________________ */
+
+@media only screen and (max-width: 799px) {
+    .logo-nav{
+        width: 8vw;
+    }
+  }
+@media only screen and (max-width: 574px) {
+    .nav-Header{
+        margin-top: 0%;
+        border-radius: 0px;
+    }
+    .logo-nav{
+        width: 15vw;
+    }
+  }
